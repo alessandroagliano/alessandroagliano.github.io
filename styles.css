@@ -24,15 +24,17 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
 }
 
 .navbar {
-  /* Gradiente per la navbar */
   background: #378DD1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
 }
 
 .nav-link {
@@ -51,6 +53,16 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   font-size: 18px;
+}
+
+.nome-navbar {
+  display: none;
+}
+
+.nome {
+  text-decoration: none;
+  padding-left: 30px;
+  color: white;
 }
 
 /* ----CHI SONO ---- */
@@ -99,7 +111,7 @@ a {
 
 .illustration {
   /* Immagine del " Chi Sono " larga quanto il container */
-  padding: 20px 0px;
+  padding: 0px 0px !important;
 }
 
 .illustration img {
@@ -127,7 +139,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px #378DD1 solid;
 }
 
 /* grassetto sezione competenze */
@@ -157,11 +168,6 @@ a {
 .col-sm-6 {
   /* --- Padding per centrare un po il contenuto nelle varie sezioni ---- */
   padding: 20px 50px;
-}
-
-.illustration {
-  /* Immagine del " Chi Sono " larga quanto il container */
-  padding: 20px 0px;
 }
 
 ol ul {
@@ -220,6 +226,7 @@ form h1 {
 
 .testo-copyright {
   color: white;
+  padding-left: 20px;
 }
 
 /* --- FINE FORM ---*/
@@ -263,7 +270,19 @@ form .row :first-of-type {
 
 /* ---- MEDIA QUERLY --- */
 /*---- PROVA MEDIA QUERLY */
+@media screen and (min-width: 576px) {
+  .illustration {
+    padding: 20px 0px !important;
+  }
+}
+
 @media screen and (min-width: 720px) {
+  .nome-navbar {
+    display: block;
+    width: 100%;
+    position: absolute;
+    color: white;
+  }
   /* ---- MEDIA QUERLY --- */
   h3 {
     padding-left: 10px;
@@ -272,9 +291,9 @@ form .row :first-of-type {
     font-size: 18px;
   }
   .navbar {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

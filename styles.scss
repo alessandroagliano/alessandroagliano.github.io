@@ -29,11 +29,14 @@ a{
 
 .nav {
     display: flex;
+    justify-content: center;
+    width: auto;
 }
-.navbar{     /* Gradiente per la navbar */
+.navbar{  
    background: $primary-color-2;
    justify-content: center;
-   width: 100%;
+  
+ 
 }
 .nav-link {
     color: white;
@@ -48,6 +51,15 @@ a{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 18px;
+}
+
+.nome-navbar {
+display: none;
+}
+.nome {
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
 }
 
 
@@ -100,7 +112,7 @@ a{
 
  
 .illustration{ /* Immagine del " Chi Sono " larga quanto il container */
-    padding: 20px 0px ;
+    padding: 0px 0px !important ;
     img{  /* --- Classe per l'immagine " CHI SONO " ----*/
         width: 100%;
        display: block;
@@ -121,8 +133,6 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom: 1px $primary-color-2 solid;
-
 }
 
 /* grassetto sezione competenze */
@@ -156,10 +166,6 @@ a{
 .col-sm-6 {     /* --- Padding per centrare un po il contenuto nelle varie sezioni ---- */
     padding: 20px 50px;
 }
-.illustration {
-    /* Immagine del " Chi Sono " larga quanto il container */
-    padding: 20px 0px;
-  }
 
 
 ol{
@@ -204,6 +210,7 @@ form{
 }
 .testo-copyright {
     color: white;
+    padding-left: 20px;
 }
 /* --- FINE FORM ---*/
 
@@ -242,7 +249,23 @@ form .row {   /*  --- padding tra gli input del FORM --- */
 /* ---- MEDIA QUERLY --- */
 
 /*---- PROVA MEDIA QUERLY */
+
+@media  screen and  (min-width:576px) {
+    .illustration {
+        padding: 20px 0px !important;
+    }
+}
+    
+
+
 @media screen and (min-width:720px) {
+
+    .nome-navbar {
+        display: block;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
    
     
 /* ---- MEDIA QUERLY --- */
@@ -261,7 +284,7 @@ p {
 
 
 .navbar {
-    align-items: flex-end;
+    align-items: center;
     display: flex; 
 }
 
