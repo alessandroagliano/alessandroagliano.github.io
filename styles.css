@@ -157,10 +157,14 @@ a {
 }
 
 .img-competenze {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 150px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 150px;
 }
 
 /* --- footer --- */

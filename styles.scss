@@ -151,8 +151,10 @@ display: none;
 }
 
 .img-competenze {
+    display: flex;
+    justify-content: center;
     height: 150px;
-    width: max-content;
+     width: 150px;
 }
 
 /* --- footer --- */
