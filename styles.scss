@@ -137,7 +137,7 @@ display: none;
 
 
 
-.img-competenze {
+.img-competenze {  /* Icone competenze */
     display: flex;
     justify-content: center;
     img {
@@ -145,6 +145,7 @@ display: none;
      width: auto;
     }
 
+    
 }
 
 /* --- footer --- */
@@ -191,6 +192,13 @@ form{
     color: white;
     padding-left: 20px;
 }
+
+form .row {   /*  --- padding tra gli input del FORM --- */
+    padding: 10px ;
+    :first-of-type {
+        padding-top: 10px;
+    }
+}
 /* --- FINE FORM ---*/
 
 
@@ -200,12 +208,7 @@ footer ul {  /* ---- collegamenti icone social --- */
     li {padding: 0px 30px;}
 }
 
-form .row {   /*  --- padding tra gli input del FORM --- */
-    padding: 10px ;
-    :first-of-type {
-        padding-top: 10px;
-    }
-}
+
 
 .footer-end {
     background-color: rgb(244,244,244);
@@ -217,13 +220,11 @@ form .row {   /*  --- padding tra gli input del FORM --- */
     background-color: $primary-color-2;
 }
 
-.bi {
+.bi { /* colore icone social */ 
     color: white;
 }
 
 /* ---- MEDIA QUERLY --- */
-
-/*---- PROVA MEDIA QUERLY */
 
 @media  screen and  (min-width:576px) {
     .illustration {
@@ -242,12 +243,6 @@ form .row {   /*  --- padding tra gli input del FORM --- */
     color: white;
 }
    
-    
-/* ---- MEDIA QUERLY --- */
-
-
-
-
  
 h3{
     padding-left: 10px;
@@ -256,13 +251,13 @@ p {
     font-size: 18px;
 }
     
-
+ /* -- NAVBAR PROPRIETY --*/    
 
 .navbar {
     align-items: center;
     display: flex; 
 }
- /* -- NAVBAR PROPRIETY --*/    
+
 
 .collapse {
     justify-content: center ;
@@ -274,9 +269,7 @@ p {
     justify-items: flex-start;
 }
 
-/* --- CHI SONO ---*/
 
- 
  /* --- competenze --*/
 
 .immagini{
