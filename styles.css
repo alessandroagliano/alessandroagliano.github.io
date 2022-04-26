@@ -69,7 +69,6 @@ a {
 .caption {
   font-family: 'roboto', sans-serif;
   font-size: 10px;
-  float: left;
   margin: 0;
   padding: 0;
   position: relative;
@@ -79,7 +78,6 @@ a {
 }
 
 .caption img {
-  float: left;
   margin: 0;
   padding-top: 59px;
   /* padding per risolvere l'overflow sulla navbar */
@@ -124,6 +122,7 @@ a {
 .skill {
   background-color: #378DD1;
   width: 100%;
+  padding: 30px 50px;
 }
 
 .competenze {
@@ -141,19 +140,8 @@ a {
           justify-content: space-between;
 }
 
-/* grassetto sezione competenze */
-.lead {
-  font-weight: 400;
-}
-
 .bg-light, .bg-dark {
   width: 100%;
-}
-
-.my-3 {
-  padding: 30px 50px;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
 }
 
 .img-competenze {
@@ -175,18 +163,6 @@ a {
 .col-sm-6 {
   /* --- Padding per centrare un po il contenuto nelle varie sezioni ---- */
   padding: 20px 50px;
-}
-
-ol ul {
-  /* Posizionamento icone Social */
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0px;
-  /* si crea un padding-left di 20 , annullato */
 }
 
 .contatto-email {
@@ -227,8 +203,7 @@ form h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  position: relative;
-  right: 30px;
+  padding-top: 10px;
 }
 
 .testo-copyright {
@@ -253,12 +228,6 @@ form .row {
 
 form .row :first-of-type {
   padding-top: 10px;
-}
-
-.nav {
-  /* icone social */
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 
 .footer-end {
@@ -305,30 +274,7 @@ form .row :first-of-type {
     display: -ms-flexbox;
     display: flex;
   }
-  .immagine-sfondo {
-    /* capire a cosa serve questo selettore */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    max-height: inherit;
-    /* background: linear-gradient(rgba(100, 100, 100, 0.484), rgb(64, 64, 64));
-    background-image: url(img/immagine-sfondo.jpg); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    color: red;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   /* -- NAVBAR PROPRIETY --*/
-  .navbar.nav {
-    z-index: 1;
-    position: relative;
-  }
   .collapse {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -342,11 +288,6 @@ form .row :first-of-type {
   /* --- competenze --*/
   .immagini {
     width: 300px;
-  }
-  .col-6 {
-    border-color: #cfcfcf;
-    border-right-style: solid;
-    border-width: 2px;
   }
   .contatto-email {
     display: -webkit-box;

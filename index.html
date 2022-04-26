@@ -18,17 +18,15 @@
     <link rel="shortcut icon" href="img/logo.ico" />
   </head>
   <body>
+
+       <!-- ----------------------------------------------    HEADER    ..........................................................-->
+
     <header >
-
-
       <div class="navbar  fixed-top ">
         <div class="nome-navbar navbar-brand">
           <a class="nome" href="#" name="#" >Alessandro Aglianò</a>
          </div>
          <nav class="nav">
-
-
-
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#chisono"> Chi sono</a>
@@ -43,11 +41,7 @@
          </nav>
       </div>
     </header>
-    <!-- ----------------------------------------------    HEADER    ..........................................................-->
-
-    <picture>
-      <source media="max-width: 720px)" >
-    </picture>
+ 
 
 
    <!-- ----------------------------------------------      CHI SONO     ..........................................................-->
@@ -68,8 +62,7 @@
 
     <div class="row align-items-center ">
       <a name="chisono"></a>
-      <div class="col-12 col-sm-6 justify-content-end  ">
-
+      <div class="col-12 col-sm-6">
         <p>Ciao!</p>
         <p>Mi chiamo <b>Alessandro Aglianò </b>e sono un web developear frontend con sede a Siracusa, Sicilia.</p>
         <p>Ho scelto questo percorso perchè mi piace creare progetti e ho una certa attitudine verso il Problem Solving.
@@ -78,7 +71,6 @@
     <div class="col-12 col-sm-6 illustration">
       <img src="img/img-chisono.jpeg" alt="immagine chi sono" >
     </div>
-
     </div>
    </section>
 
@@ -87,15 +79,14 @@
   <!-- ----------------------------------------------    COMPETENZE      ..........................................................-->
   <a name="competenze"></a>
   <section >
-    <div class="position-relative overflow-hidden my-3  text-white skill"> <!-- Competenze intestazione-->
-      <div class=" p-lg-5  my-1">
+    <div class="  text-white skill"> <!-- Competenze intestazione-->
+      <div>
         <h1 style="font-weight: 500;" class="display-4 fw-normal text-white text-center ">Skills</h1>
         <p class=" text-center fw-normal">Completando il primo modulo del percorso "Front-end Developer" ho acquisito queste skill:</p>
       </div>
     </div>
-
-<div class="container">
-    <div class="d-lg-flex flex-lg-equal  ps-lg-3">
+    <div class="container">
+    <div class="d-lg-flex">
       <!-- HTML-->
       <div class="competenze   overflow-hidden">
         <div class="my-3 ">
@@ -107,13 +98,13 @@
                  - ovvero, i siti web.</p>
                  <p style="padding-top: 15px;">  E' un po' lo scheletro del  tuo sito web!</span> </p>
         </div>
-        <div class=" shadow-sm mx-auto  img-competenze"   >
-        <img class="img-competenze" src="img/html5.png" alt="">
+        <div class="mx-auto  img-competenze">
+        <img class="img-competenze" src="img/html5.png" alt="logo-html">
       </div>
       </div>
       <hr>
       <!-- CSS-->
-      <div class="competenze   overflow-hidden">
+      <div class="competenze overflow-hidden">
         <div class="my-3 ">
           <h2 class=" text-center">Css</h2>
           <p><b>CSS </b>, o <i> Cascading Style Sheets</i>,
@@ -122,15 +113,15 @@
              <p style="padding-top: 15px;"> Grazie al CSS posso dare <i>forma</i>, <i>colore</i> e <i>personalià</i> al
                <span style="text-decoration: underline;"<i><b>tuo sito web!</b></i> </span></p>
         </div>
-        <div class="shadow-sm mx-auto img-competenze">
-        <img class="img-competenze" src="img/css.png" alt="">
+        <div class="mx-auto img-competenze">
+        <img class="img-competenze" src="img/css.png" alt="logo-css">
       </div>
       </div>
     </div>
 
     <hr>
 
-    <div class="d-lg-flex flex-lg-equal   ps-lg-3">
+    <div class="d-lg-flex ps-lg-3">
       <!-- SASS-->
       <div class="competenze  overflow-hidden">
         <div class="my-3 ">
@@ -140,8 +131,8 @@
              di organizzare il foglio di stile in più file.</p>
              <p>Questo mi permette di velocizzare il mio workflow.</p>
       </div>
-        <div class="t shadow-sm mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/sass.png" alt=""></div>
+        <div class="mx-auto img-competenze"   >
+        <img class="img-competenze" src="img/sass.png" alt="logo-sass"></div>
       </div>
       <hr>
       <!-- BOOTSTRAP-->
@@ -154,8 +145,8 @@
             pulsanti e navigazione, così come alcune estensioni opzionali di JavaScript.</p>
             <p ><i>Un po come incastrare pezzi di un puzzle.</i> </p>
         </div>
-        <div class=" shadow-sm mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/bootstrap.png" alt=""></div>
+        <div class="mx-auto img-competenze"   >
+        <img class="img-competenze" src="img/bootstrap.png" alt="logo-bootstrap"></div>
       </div>
       <hr>
     </div>
@@ -173,10 +164,10 @@
 
 <!------ CONTATTI------>
 <a name="contatti"></a>
-<footer >
+<footer>
   <div class="container" >
     <div class="row" >
-      <div class=" col-12 col-md-6" >
+      <div class="col-12 col-md-6" >
         <!--  INIZIO FORM -->
              <form action=""  method="get" class="speaker-form form">
                <h1 class="row">Prenota il tuo servizio </h1>
@@ -193,7 +184,7 @@
                  <input type="email" id="email" name="email" class="form-control"  placeholder="nome@esempio.com">
                   </div>
             <div class="row">
-            <label for="Servizio" class=" col  "></label>
+            <label for="Servizio" class="col"></label>
              <select class="form-select" name="Servizio" id="Servizio" aria-label="Servizio richiesto">
                <option selected>Seleziona Servizio </option>
                <option value="1">Consulenza </option>
@@ -219,28 +210,25 @@
      </div>
    </div>
   </div>
-</footer>
+  <div class="d-flex justify-content-between py-3 border-top">
+    <div class="col-md-4 d-flex">
+      <span class="testo-copyright">&copy; 2021 Alessandro Aglianò</span>
+    </div>
 
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="testo-copyright">&copy; 2021 Company, Inc</span>
-      </div>
-
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li> <a class="bi bi-facebook" href="https://www.facebook.com/alessandro.agliano.1">
-           </a>
-           </li>
-         <li>
-        <a class="bi bi-instagram" href="https://www.instagram.com/alessandroagliano/">
-        </a>
-        </li>
-           <li>
-         <a class="bi bi-github" href="https://github.com/alessandroagliano">
-          </a>
+    <ul class="col-md-4 justify-content-end list-unstyled d-flex">
+      <li> <a class="bi bi-facebook" href="https://www.facebook.com/alessandro.agliano.1">
+         </a>
          </li>
-      </ul>
-    </footer>
+       <li>
+      <a class="bi bi-instagram" href="https://www.instagram.com/alessandroagliano/">
+      </a>
+      </li>
+         <li>
+       <a class="bi bi-github" href="https://github.com/alessandroagliano">
+        </a>
+       </li>
+    </ul>
+</footer>
 
 
 

@@ -71,7 +71,6 @@ display: none;
        
     font-family: 'roboto', sans-serif;
     font-size: 10px;
-    float: left;
     margin: 0;
     padding: 0;
     position: relative;
@@ -79,16 +78,11 @@ display: none;
     overflow: hidden;
     height: 100%;
     img {
-        float: left;
         margin: 0;
         padding-top: 59px; /* padding per risolvere l'overflow sulla navbar */
         background: #fff;
         border: none;
-        width: 100%;
-       
-        
-        
-      
+        width: 100%; 
     }
     span {
         text-align: center;
@@ -125,6 +119,7 @@ display: none;
 .skill{
     background-color: $primary-color-2;
     width: 100%;
+    padding: 30px 50px;
 }
  
 .competenze  {
@@ -135,20 +130,12 @@ display: none;
     justify-content: space-between;
 }
 
-/* grassetto sezione competenze */
-.lead {
-    font-weight: 400;
-}
-    .bg-light , .bg-dark {
+.bg-light , .bg-dark {
     width: 100%;
 }
 
 
-.my-3 {
-    padding: 30px 50px;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
+
 
 .img-competenze {
     display: flex;
@@ -162,22 +149,12 @@ display: none;
 
 /* --- footer --- */
 
-.footer {
-    
-}
 .col-12 ,
 .col-sm-6 {     /* --- Padding per centrare un po il contenuto nelle varie sezioni ---- */
     padding: 20px 50px;
 }
 
 
-ol{
-     ul {   /* Posizionamento icone Social */
-    justify-content: center;
-    display: flex;
-    padding-left: 0px;   /* si crea un padding-left di 20 , annullato */}
-   
-}
 .contatto-email {  /* Class per allineare l'intestazione contatti sul footer */
     text-align: center;
  }
@@ -208,8 +185,7 @@ form{
 .btn-posizione {  /* --- posizione pulsante invia del Form -- */
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    right: 30px;
+    padding-top: 10px;
 }
 .testo-copyright {
     color: white;
@@ -229,10 +205,6 @@ form .row {   /*  --- padding tra gli input del FORM --- */
     :first-of-type {
         padding-top: 10px;
     }
-}
-
-.nav {  /* icone social */
-    flex-wrap: nowrap;
 }
 
 .footer-end {
@@ -290,45 +262,16 @@ p {
     align-items: center;
     display: flex; 
 }
-
-
-.immagine-sfondo { /* capire a cosa serve questo selettore */
-    display: flex;
-    max-height: inherit;
-   /* background: linear-gradient(rgba(100, 100, 100, 0.484), rgb(64, 64, 64));
-    background-image: url(img/immagine-sfondo.jpg); */ 
-     background-repeat: no-repeat;
-     background-position:  center;
-     background-size: contain;
-     color: red;
-     align-items: flex-end;
-     justify-content: center;
-}
-
- /* -- NAVBAR PROPRIETY --*/
-    
-    
-    
- .navbar.nav {
-    z-index:1;
-  position: relative; 
-
-}
-
-
-
-
+ /* -- NAVBAR PROPRIETY --*/    
 
 .collapse {
     justify-content: center ;
 }
 
-
 .row{
     
     padding-top: 20px;
     justify-items: flex-start;
-
 }
 
 /* --- CHI SONO ---*/
@@ -339,11 +282,7 @@ p {
 .immagini{
     width: 300px;
 }
-.col-6 {
-    border-color: rgb(207, 207, 207);
-    border-right-style: solid;
-    border-width: 2px;
-}
+
 .contatto-email {
     display: flex;
     flex-direction: column;
