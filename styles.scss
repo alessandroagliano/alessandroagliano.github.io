@@ -1,6 +1,6 @@
 
-$primary-color-1: rgb(248, 252, 253);
-$primary-color-2 :  #378DD1;
+$primary-color-2: rgb(248, 252, 253);
+$primary-color-1 :  #378DD1;
 $secondary-color-scuro: #13586b;
 $secondary-color-chiaro: #C2F9FFF8;
 
@@ -11,7 +11,7 @@ body {
    
 }
 h1 {
-    color: $primary-color-2;
+    color: $primary-color-1;
     h2 , h3 {
         font-size: 40px;
     }
@@ -33,7 +33,7 @@ a{
     width: auto;
 }
 .navbar{  
-   background: $primary-color-2;
+   background: $primary-color-1;
    justify-content: center;
   
  
@@ -117,7 +117,7 @@ display: none;
 
 
 .skill{
-    background-color: $primary-color-2;
+    background-color: $primary-color-1;
     width: 100%;
     padding: 30px 50px;
 }
@@ -170,15 +170,15 @@ form{
 }
 
 .speaker-form {  /* --- grafica form ---*/
-    background-color: $primary-color-1 ;
-    border: 1px solid $primary-color-2;
+    background-color: $primary-color-2 ;
+    border: 1px solid $primary-color-1;
     border-radius: 40px;
     padding: 23px 47px;
     margin: 0 0 40px 0;
   }
 
   .btn-invia {  /* ---- grafica bottone --- */
-    background-color: $primary-color-2;
+    background-color: $primary-color-1;
     color: white;
     margin-top: 15px;
     
@@ -217,7 +217,7 @@ footer ul {  /* ---- collegamenti icone social --- */
 
 /* Color Footer */
 .d-flex { 
-    background-color: $primary-color-2;
+    background-color: $primary-color-1;
 }
 
 .bi { /* colore icone social */ 
@@ -238,8 +238,6 @@ footer ul {  /* ---- collegamenti icone social --- */
 
     .nome-navbar {
         display: block;
-    width: 100%;
-    position: absolute;
     color: white;
 }
    
@@ -256,6 +254,7 @@ p {
 .navbar {
     align-items: center;
     display: flex; 
+    justify-content: space-between;
 }
 
 
@@ -270,6 +269,8 @@ p {
 }
 
 
+
+ 
  /* --- competenze --*/
 
 .immagini{

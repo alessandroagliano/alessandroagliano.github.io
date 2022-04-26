@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  color: #378DD1;
+  color: #f8fcfd;
 }
 
 /* ---- NAVBAR ---- */
@@ -256,8 +256,6 @@ footer ul li {
 @media screen and (min-width: 720px) {
   .nome-navbar {
     display: block;
-    width: 100%;
-    position: absolute;
     color: white;
   }
   h3 {
@@ -274,6 +272,9 @@ footer ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .collapse {
     -webkit-box-pack: center;
