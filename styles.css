@@ -1,13 +1,13 @@
 body {
-  background-color: #f8fcfd;
-  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(248, 252, 253);
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  color: #378DD1;
+  color: #378dd1;
 }
-
-h1 h2, h1 h3 {
+h1 h2,
+h1 h3 {
   font-size: 40px;
 }
 
@@ -16,25 +16,19 @@ p {
 }
 
 a {
-  color: #f8fcfd;
+  color: rgb(248, 252, 253);
 }
 
 /* ---- NAVBAR ---- */
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: auto;
 }
 
 .navbar {
-  background: #378DD1;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background: #378dd1;
+  justify-content: center;
 }
 
 .nav-link {
@@ -43,10 +37,7 @@ a {
 }
 
 .navbar-nav {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .nav-item {
@@ -67,7 +58,7 @@ a {
 
 /* ----CHI SONO ---- */
 .caption {
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   font-size: 10px;
   margin: 0;
   padding: 0;
@@ -76,30 +67,25 @@ a {
   overflow: hidden;
   height: 100%;
 }
-
 .caption img {
   margin: 0;
-  padding-top: 59px;
-  /* padding per risolvere l'overflow sulla navbar */
+  padding-top: 59px; /* padding per risolvere l'overflow sulla navbar */
   background: #fff;
   border: none;
   width: 100%;
 }
-
 .caption span {
   text-align: center;
   margin: 0;
   padding: 10px;
   width: 100%;
   color: #dedede;
-  background: #222;
-  /* browser che non supportano rgba */
+  background: #222; /* browser che non supportano rgba */
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 0;
   bottom: 0;
 }
-
 .caption span strong {
   font-weight: bold;
   font-size: 30px;
@@ -111,16 +97,20 @@ a {
   /* Immagine del " Chi Sono " larga quanto il container */
   padding: 0px 0px !important;
 }
-
 .illustration img {
   /* --- Classe per l'immagine " CHI SONO " ----*/
   width: 100%;
   display: block;
 }
 
+/* Progetti */
+.link-project {
+  color: black;
+}
+
 /* COMPETENZE */
 .skill {
-  background-color: #378DD1;
+  background-color: #378dd1;
   width: 100%;
   padding: 30px 50px;
 }
@@ -128,32 +118,27 @@ a {
 .competenze {
   width: 100%;
   padding-bottom: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.bg-light, .bg-dark {
+.library {
+  background-color: #378dd1;
+  width: 100%;
+  padding: 0vh 15vh;
+}
+
+.bg-light,
+.bg-dark {
   width: 100%;
 }
 
 .img-competenze {
   /* Icone competenze */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .img-competenze img {
   height: 150px;
   width: auto;
@@ -174,16 +159,14 @@ a {
 /* --- FORM ---*/
 form h1 {
   font-size: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
 }
 
 .speaker-form {
   /* --- grafica form ---*/
-  background-color: #f8fcfd;
-  border: 1px solid #378DD1;
+  background-color: rgb(248, 252, 253);
+  border: 1px solid #378dd1;
   border-radius: 40px;
   padding: 23px 47px;
   margin: 0 0 40px 0;
@@ -191,19 +174,15 @@ form h1 {
 
 .btn-invia {
   /* ---- grafica bottone --- */
-  background-color: #378DD1;
+  background-color: #378dd1;
   color: white;
   margin-top: 15px;
 }
 
 .btn-posizione {
   /* --- posizione pulsante invia del Form -- */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   padding-top: 10px;
 }
 
@@ -216,7 +195,6 @@ form .row {
   /*  --- padding tra gli input del FORM --- */
   padding: 10px;
 }
-
 form .row :first-of-type {
   padding-top: 10px;
 }
@@ -226,19 +204,18 @@ footer ul {
   /* ---- collegamenti icone social --- */
   list-style-type: none;
 }
-
 footer ul li {
   padding: 0px 30px;
 }
 
 .footer-end {
-  background-color: #f4f4f4;
+  background-color: rgb(244, 244, 244);
   max-width: 100%;
 }
 
 /* Color Footer */
-.d-flex {
-  background-color: #378DD1;
+#footer {
+  background-color: #378dd1;
 }
 
 .bi {
@@ -252,7 +229,6 @@ footer ul li {
     padding: 20px 0px !important;
   }
 }
-
 @media screen and (min-width: 720px) {
   .nome-navbar {
     display: block;
@@ -266,20 +242,12 @@ footer ul li {
   }
   /* -- NAVBAR PROPRIETY --*/
   .navbar {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .collapse {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .row {
     padding-top: 20px;
@@ -290,28 +258,21 @@ footer ul li {
     width: 300px;
   }
   .contatto-email {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .forme-contatti {
     padding-bottom: 20px;
   }
 }
-
 @media screen and (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
     max-width: 920px;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
