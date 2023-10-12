@@ -1,38 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
     <!-- foglio di stile -->
 
- <link rel="stylesheet" type="text/css" href="styles.css">
- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"> <!-- Icone Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- Icone Bootstrap -->
 
-    <title>Alessandro Aglianò | Portfolio </title>
+    <title>Alessandro Aglianò | Portfolio</title>
     <link rel="shortcut icon" href="img/logo.ico" />
   </head>
   <body>
+    <!-- ----------------------------------------------    HEADER    ..........................................................-->
 
-       <!-- ----------------------------------------------    HEADER    ..........................................................-->
-
-    <header >
-      <div class="navbar  fixed-top ">
+    <header>
+      <div class="navbar fixed-top">
         <div class="nome-navbar navbar-brand">
-          <a class="nome" href="#" name="#" >Alessandro Aglianò</a>
-         </div>
-         <nav class="nav">
+          <a class="nome" href="#" name="#">Alessandro Aglianò</a>
+        </div>
+        <nav class="nav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#chisono"> Chi sono</a>
+              <a class="nav-link" aria-current="page" href="#chisono">
+                Chi sono</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#progetti"> Progetti</a>
+              <a class="nav-link" aria-current="page" href="#progetti">
+                Progetti</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#competenze">Competenze</a>
@@ -41,354 +55,504 @@
               <a class="nav-link" href="#contatti">Contatti</a>
             </li>
           </ul>
-         </nav>
+        </nav>
       </div>
     </header>
 
+    <!-- ----------------------------------------------      CHI SONO     ..........................................................-->
 
-   <!-- ----------------------------------------------      CHI SONO     ..........................................................-->
-
-  <article>
-    <div class="caption  ">  <!-- container Immagine -->
-      <picture>
-        <source media="(max-width: 960px)" srcset="img/immagine-sfondo-mobile.jpg">
-        <source media="(max-width: 951px)" srcset="img/immagine-sfondo.jpg">
-        <img src="img/immagine-sfondo.jpg" alt="immagine-sfondo">
-      </picture>
-      <span>
-        <h1> <strong>Alessandro Aglianò</strong> </h1>
-        <p> Front-end Developer </p>
-      </span>
-   </div>
-   <section class="container">
-     <!-- Container biografia " chi sono "-->
-    <div class="row align-items-center " id="chisono">
-      <a name="chisono"></a>
-      <div class="col-12 col-sm-6">
-        <p>Ciao!</p>
-        <p>Mi chiamo <b>Alessandro Aglianò </b>e sono un web developear frontend con sede a Siracusa, Sicilia.</p>
-        <p>Ho scelto questo percorso perchè mi piace creare progetti e ho una certa attitudine verso il Problem Solving.
-          <p style="padding-top: 15px;"> <i>Cosa meglio della programmazione? </i> </p>
-          <br>
-         <p>Oltre la programmazione mi appassiona il marketing digitale e mi diletto nella fotografia.</p>
-    </div>
-    <div class="col-12 col-sm-6 illustration">
-      <img src="img/img-chisono.jpeg" alt="immagine chi sono" >
-    </div>
-    </div>
-   </section>
- 
-
-   <!-- ----------------------------------------------    PROGETTI     ..........................................................-->
-   <section>
-    <a name="progetti"></a>
-
-    <div class="container">
-      <div class="d-lg-flex row">
-        <!-- Counter-->
-        <div class="col-12 col-lg-6  shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden">
-          <div class="my-3 link-project">
-            <h2 class=" text-center "> Counter  </h2>
-            <p> Ho realizzato un <strong>Counter</strong>  con funzionalità di Reset e cambio Modalità </p>
-            <div class="container text-center">  <a class="link-project"  
-              href="https://counter-agliano.netlify.app/">Link</a></div>
-          
-          </div>
-          
-        </div>
-        <!-- Quality of Life-->
-        <div class=" col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden">
-          <div class="my-3 ">
-            <h2 class=" text-center"> Quality of Life</h2>
-            <p>Ho creato un Applicazione che tramite il servizio offerto da Teleport
-            restituisce vari parametri sulla <em>qualità della vita in una città</em></p>
-            <div class="container text-center"> <a class="link-project" 
-               href="https://qualityoflife-alessandroagliano.netlify.app/">Link</a>
-          </div>
-         
+    <article>
+      <div class="caption">
+        <!-- container Immagine -->
+        <picture>
+          <source
+            media="(max-width: 960px)"
+            srcset="img/immagine-sfondo-mobile.jpg"
+          />
+          <source media="(max-width: 951px)" srcset="img/immagine-sfondo.jpg" />
+          <img src="img/immagine-sfondo.jpg" alt="immagine-sfondo" />
+        </picture>
+        <span>
+          <h1><strong>Alessandro Aglianò</strong></h1>
+          <p>Front-end Developer</p>
+        </span>
       </div>
+      <section class="container">
+        <!-- Container biografia " chi sono "-->
+        <div class="row align-items-center" id="chisono">
+          <a name="chisono"></a>
+          <div class="col-12 col-sm-6">
+            <p>Ciao!</p>
+            <p>
+              Mi chiamo <b>Alessandro Aglianò </b>e sono un web developear
+              frontend con sede a Siracusa, Sicilia.
+            </p>
+            <p>
+              Ho scelto questo percorso perchè mi piace creare progetti e ho una
+              certa attitudine verso il Problem Solving.
+            </p>
+            <p style="padding-top: 15px">
+              <i>Cosa meglio della programmazione? </i>
+            </p>
+            <br />
+            <p>
+              Oltre la programmazione mi appassiona il marketing digitale e mi
+              diletto nella fotografia.
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 illustration">
+            <img src="img/img-chisono.jpeg" alt="immagine chi sono" />
+          </div>
         </div>
-      </div>
-       <div class="d-lg-flex row">
+      </section>
 
-                       <!-- New York times clone-->
-
-        <div class="col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden">
-          <div class="my-3 ">
-            <h2 class=" text-center">New York Times Clone</h2>
-            <p>In questo progetto ho creato un clone della sito del <a> New York Times</a> sfruttando
-            le loro Api</p>
-             <div class="container text-center"> <a class="link-project" 
-               href="https://qualityoflife-alessandroagliano.netlify.app/">Link</a>
+      <!-- ----------------------------------------------    PROGETTI     ..........................................................-->
+      <section>
+        <a name="progetti"></a>
+        <div class="text-white skill">
+          <!-- Competenze intestazione-->
+          <div>
+            <h1
+              style="font-weight: 500"
+              class="display-4 fw-normal text-white text-center"
+            >
+              Portfolio
+            </h1>
+            <!--             <p class="text-center fw-normal">Tutti i miei progetti</p>
+ -->
           </div>
-          </div>
-                        <!-- Climate Change 360 -->
-
-          </div>
-          <div class=" col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden">
-            <div class="my-3 ">
-              <h2 class=" text-center">Climate Change 360</h2>
-              <p>Sito Web in cui analizzo graficamente i principali fattori 
-                che stanno influenzando il cambiamento climatico.
-              ></p>
-               <div class="container text-center"> <a class="link-project" 
-                 href="https://climate-change-360.netlify.app/">Link</a>
+        </div>
+        <div class="container">
+          <div class="d-lg-flex row">
+            <!-- Counter-->
+            <div
+              class="col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden"
+            >
+              <div class="my-3 link-project">
+                <h2 class="text-center">Counter</h2>
+                <p>
+                  Ho realizzato un <strong>Counter</strong> con funzionalità di
+                  Reset e cambio Modalità
+                </p>
+                <div class="container text-center">
+                  <a
+                    class="link-project"
+                    href="https://counter-agliano.netlify.app/"
+                    >Link</a
+                  >
+                </div>
+              </div>
             </div>
+            <!-- Quality of Life-->
+            <div
+              class="col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden"
+            >
+              <div class="my-3">
+                <h2 class="text-center">Quality of Life</h2>
+                <p>
+                  Ho creato un Applicazione che tramite il servizio offerto da
+                  Teleport restituisce vari parametri sulla
+                  <em>qualità della vita in una città</em>
+                </p>
+                <div class="container text-center">
+                  <a
+                    class="link-project"
+                    href="https://qualityoflife-alessandroagliano.netlify.app/"
+                    >Link</a
+                  >
+                </div>
+              </div>
             </div>
-        </div>
-
-
-        
-        </div>
-      </div>
-    </div>
-     
-  
-        
-  
-    
-      
-        
-  
-  
-   
-   </section>
-
-
-
-  <!-- ----------------------------------------------    COMPETENZE      ..........................................................-->
-  <a name="competenze"></a>
-  <section >
-    <div class="  text-white skill"> <!-- Competenze intestazione-->
-      <div>
-        <h1 style="font-weight: 500;" class="display-4 fw-normal text-white text-center ">Skills</h1>
-        <p class=" text-center fw-normal">In continua formazione su <a href="https://www.start2impact.it/">start2impact</a> ho acquisito queste skill:</p>
-      </div>
-    </div>
-    <div class="container">
-    <div class="d-lg-flex">
-      <!-- HTML-->
-      <div class="competenze   overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center">Html </h2>
-          <p>HTML è un acronimo che significa letteralmente <b>"Hyper Text Markup Language"</b>,
-            ovvero è il codice utilizzato per strutturare una pagina Web e il suo contenuto.</p>
-                 <p style="padding-top: 15px;">HTML rappresenta dunque la struttura portante delle pagine web</span> </p>
-        </div>
-        <div class="mx-auto  img-competenze">
-        <img class="img-competenze" src="img/html5.png" alt="logo-html">
-      </div>
-      </div>
-      <hr>
-      <!-- CSS-->
-      <div class="competenze overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center">Css</h2>
-          <p><b>CSS </b>, o <i> Cascading Style Sheets</i>,
-            è un linguaggio usato per programmare la resa grafica di documenti scritti
-             in un linguaggio di markup, come HTML e XML.</p>
-             <p style="padding-top: 15px;"> Grazie al CSS posso dare <i>forma</i>, <i>colore</i> e <i>personalià</i> al
-               <span"<i><b>tuo sito web!</b></i> </span></p>
-        </div>
-        <div class="mx-auto img-competenze">
-        <img class="img-competenze" src="img/css.png" alt="logo-css">
-      </div>
-      </div>
-    </div>
-    <div class="d-lg-flex">
-
-      <hr>
-        <!-- Javascript-->
-      <div class="competenze overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center">Javascript</h2>
-          <p><b>JavaScript</b> è un linguaggio di programmazione che gli sviluppatori utilizzano per 
-            realizzare pagine Web interattive. Le funzioni di JavaScript possono migliorare l
-            'esperienza utente nel sito Web: dall'aggiornamento dei feed dei social media fino
-             alla visualizzazione di animazioni e mappe interattive </p>
-        </div>
-        <div class="mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/Javascript.png" alt="logo-javascript"></div>
-      </div>
-      <hr>
-        <!-- React-->
-      <div class="competenze overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center">React</h2>
-          <p> <b> React</b> è una libreria JavaScript per la creazione di interfacce utente (UI, User Interface).
-            React consente di sviluppare applicazioni dinamiche che non necessitano di
-             ricaricare la pagina per visualizzare i dati modificati. </p>
-        </div>
-        <div class="mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/React.png" alt="logo-react"></div>
-      </div>
-      </div>
-
-  
-    <div class="  text-white  library"> <!-- Competenze intestazione-->
-      <div>
-        <h1 style="font-weight: 500;" class="display-4 fw-normal text-white text-center  ">Librerie</h1>
-        <p class=" text-center fw-normal">Oltre le Skill principali utilizzo altre strumenti per velocizzare
-          e migliorare il workflow, qualità del codice e prestazioni di un applicazione. Queste sono:
-        </p>
-      </div>
-    </div>
-
-    <div class="d-lg-flex ps-lg-3">
-      <!-- SASS-->
-      <div class="competenze  overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center ">Sass</h2>
-          <p><b>Sass</b> è un'estensione del linguaggio   CSS
-            che permette di utilizzare variabili, di creare funzioni e
-             di organizzare il foglio di stile in più file.</p>
-             <p>Questo mi permette di velocizzare il mio workflow.</p>
-      </div>
-        <div class="mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/sass.png" alt="logo-sass"></div>
-      </div>
-      <hr>
-      <!-- BOOTSTRAP-->
-      <div class="competenze overflow-hidden">
-        <div class="my-3 ">
-          <h2 class=" text-center">Bootstrap</h2>
-          <p><b>Bootstrap</b> è una raccolta di strumenti liberi per la creazione di siti e applicazioni per il Web.</p>
-            <p > Essa contiene modelli di progettazione basati su HTML e CSS, sia per la tipografia,
-              che per le varie componenti dell'interfaccia, come moduli,
-            pulsanti e navigazione, così come alcune estensioni opzionali di JavaScript.</p>
-            <p ><i>Un po come incastrare pezzi di un puzzle.</i> </p>
-        </div>
-        <div class="mx-auto img-competenze"   >
-        <img class="img-competenze" src="img/bootstrap.png" alt="logo-bootstrap"></div>
-      </div>
-      </div>
-      
-      <hr>
-      <div class="d-lg-flex ps-lg-3">
-        <!-- Redux-->
-        <div class="competenze  overflow-hidden">
-          <div class="my-3 ">
-            <h2 class=" text-center ">Redux</h2>
-            <p><b>Redux</b> è una libreria JavaScript open source per la gestione e la centralizzazione 
-              dello stato dell'applicazione. È più comunemente usato con librerie come 
-              React o Angular per la creazione di interfacce utente. 
-        </div>
-          <div class="mx-auto img-competenze"   >
-          <img class="img-competenze" src="img/Redux.png" alt="logo-redux"></div>
-        </div>
-        <hr>
-        <!-- Axios-->
-        <div class="competenze overflow-hidden">
-          <div class="my-3 ">
-            <h2 class=" text-center">Axios</h2>
-            <p><b>Axios</b> è una libreria JavaScript che viene utilizzata per effettuare richieste HTTP 
-              sia negli ambienti browser che Node. js. Axios è comunemente usata nello sviluppo web 
-              per interagire con le API web ed è particolarmente
-               utile quando si creano applicazioni a pagina singola che si basano sui dati da un server back-end. </p>
           </div>
-          <div class="mx-auto img-competenze"   >
-          <img class="img-competenze" src="img/Axios.png" alt="logo-axios"></div>
+          <div class="d-lg-flex row">
+            <!-- New York times clone-->
+
+            <div
+              class="col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden"
+            >
+              <div class="my-3">
+                <h2 class="text-center">New York Times Clone</h2>
+                <p>
+                  In questo progetto ho creato un clone della sito del
+                  <a> New York Times</a> sfruttando le loro Api
+                </p>
+                <div class="container text-center">
+                  <a
+                    class="link-project"
+                    href="https://qualityoflife-alessandroagliano.netlify.app/"
+                    >Link</a
+                  >
+                </div>
+              </div>
+              <!-- Climate Change 360 -->
+            </div>
+            <div
+              class="col-12 col-lg-6 shadow p-3 mb-5 bg-body-tertiary rounded overflow-hidden"
+            >
+              <div class="my-3">
+                <h2 class="text-center">Climate Change 360</h2>
+                <p>
+                  Sito Web in cui analizzo graficamente i principali fattori che
+                  stanno influenzando il cambiamento climatico. >
+                </p>
+                <div class="container text-center">
+                  <a
+                    class="link-project"
+                    href="https://climate-change-360.netlify.app/"
+                    >Link</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- ----------------------------------------------    COMPETENZE      ..........................................................-->
+      <a name="competenze"></a>
+      <section>
+        <div class="text-white skill">
+          <!-- Competenze intestazione-->
+          <div>
+            <h1
+              style="font-weight: 500"
+              class="display-4 fw-normal text-white text-center"
+            >
+              Skills
+            </h1>
+            <p class="text-center fw-normal">
+              In continua formazione su
+              <a href="https://www.start2impact.it/">start2impact</a> ho
+              acquisito queste skill:
+            </p>
+          </div>
         </div>
+        <div class="container">
+          <div class="d-lg-flex">
+            <!-- HTML-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Html</h2>
+                <p>
+                  HTML è un acronimo che significa letteralmente
+                  <b>"Hyper Text Markup Language"</b>, ovvero è il codice
+                  utilizzato per strutturare una pagina Web e il suo contenuto.
+                </p>
+                <p style="padding-top: 15px">
+                  HTML rappresenta dunque la struttura portante delle pagine web
+                </p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/html5.png"
+                  alt="logo-html"
+                />
+              </div>
+            </div>
+            <hr />
+            <!-- CSS-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Css</h2>
+                <p>
+                  <b>CSS </b>, o <i> Cascading Style Sheets</i>, è un linguaggio
+                  usato per programmare la resa grafica di documenti scritti in
+                  un linguaggio di markup, come HTML e XML.
+                </p>
+                <p style="padding-top: 15px">
+                  Grazie al CSS posso dare <i>forma</i>, <i>colore</i> e
+                  <i>personalià</i> al
+                  <span
+                    >"<i><b>tuo sito web!</b></i>
+                  </span>
+                </p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img class="img-competenze" src="img/css.png" alt="logo-css" />
+              </div>
+            </div>
+          </div>
+          <div class="d-lg-flex">
+            <hr />
+            <!-- Javascript-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Javascript</h2>
+                <p>
+                  <b>JavaScript</b> è un linguaggio di programmazione che gli
+                  sviluppatori utilizzano per realizzare pagine Web interattive.
+                  Le funzioni di JavaScript possono migliorare l 'esperienza
+                  utente nel sito Web: dall'aggiornamento dei feed dei social
+                  media fino alla visualizzazione di animazioni e mappe
+                  interattive
+                </p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/Javascript.png"
+                  alt="logo-javascript"
+                />
+              </div>
+            </div>
+            <hr />
+            <!-- React-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">React</h2>
+                <p>
+                  <b> React</b> è una libreria JavaScript per la creazione di
+                  interfacce utente (UI, User Interface). React consente di
+                  sviluppare applicazioni dinamiche che non necessitano di
+                  ricaricare la pagina per visualizzare i dati modificati.
+                </p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/React.png"
+                  alt="logo-react"
+                />
+              </div>
+            </div>
+          </div>
 
-      <!--  LIBRERIE  -->
-    
-</div>
-  </section>
-</article>
+          <div class="text-white library">
+            <!-- Competenze intestazione-->
+            <div>
+              <h1
+                style="font-weight: 500"
+                class="display-4 fw-normal text-white text-center"
+              >
+                Librerie
+              </h1>
+              <p class="text-center fw-normal">
+                Oltre le Skill principali utilizzo altre strumenti per
+                velocizzare e migliorare il workflow, qualità del codice e
+                prestazioni di un applicazione. Queste sono:
+              </p>
+            </div>
+          </div>
 
+          <div class="d-lg-flex ps-lg-3">
+            <!-- SASS-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Sass</h2>
+                <p>
+                  <b>Sass</b> è un'estensione del linguaggio CSS che permette di
+                  utilizzare variabili, di creare funzioni e di organizzare il
+                  foglio di stile in più file.
+                </p>
+                <p>Questo mi permette di velocizzare il mio workflow.</p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/sass.png"
+                  alt="logo-sass"
+                />
+              </div>
+            </div>
+            <hr />
+            <!-- BOOTSTRAP-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Bootstrap</h2>
+                <p>
+                  <b>Bootstrap</b> è una raccolta di strumenti liberi per la
+                  creazione di siti e applicazioni per il Web.
+                </p>
+                <p>
+                  Essa contiene modelli di progettazione basati su HTML e CSS,
+                  sia per la tipografia, che per le varie componenti
+                  dell'interfaccia, come moduli, pulsanti e navigazione, così
+                  come alcune estensioni opzionali di JavaScript.
+                </p>
+                <p><i>Un po come incastrare pezzi di un puzzle.</i></p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/bootstrap.png"
+                  alt="logo-bootstrap"
+                />
+              </div>
+            </div>
+          </div>
 
+          <hr />
+          <div class="d-lg-flex ps-lg-3">
+            <!-- Redux-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Redux</h2>
+                <p>
+                  <b>Redux</b> è una libreria JavaScript open source per la
+                  gestione e la centralizzazione dello stato dell'applicazione.
+                  È più comunemente usato con librerie come React o Angular per
+                  la creazione di interfacce utente.
+                </p>
+              </div>
 
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/Redux.png"
+                  alt="logo-redux"
+                />
+              </div>
+            </div>
+            <hr />
+            <!-- Axios-->
+            <div class="competenze overflow-hidden">
+              <div class="my-3">
+                <h2 class="text-center">Axios</h2>
+                <p>
+                  <b>Axios</b> è una libreria JavaScript che viene utilizzata
+                  per effettuare richieste HTTP sia negli ambienti browser che
+                  Node. js. Axios è comunemente usata nello sviluppo web per
+                  interagire con le API web ed è particolarmente utile quando si
+                  creano applicazioni a pagina singola che si basano sui dati da
+                  un server back-end.
+                </p>
+              </div>
+              <div class="mx-auto img-competenze">
+                <img
+                  class="img-competenze"
+                  src="img/Axios.png"
+                  alt="logo-axios"
+                />
+              </div>
+            </div>
+          </div>
 
+          <!--  LIBRERIE  -->
+        </div>
+      </section>
+    </article>
 
+    <!-- ----------------------------------------------      CONTATTI      ..........................................................-->
 
-
-  <!-- ----------------------------------------------      CONTATTI      ..........................................................-->
-
-<!------ CONTATTI------>
-<a name="contatti"></a>
-<footer>
-  <div class="container" >
-    <div class="row" >
-      <div class="col-12 col-md-6" >
-        <!--  INIZIO FORM -->
-             <form action=""  method="get" class="speaker-form form">
-               <h1 class="row">Prenota il tuo servizio </h1>
+    <!------ CONTATTI------>
+    <a name="contatti"></a>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <!--  INIZIO FORM -->
+            <form action="" method="get" class="speaker-form form">
+              <h1 class="row">Prenota il tuo servizio</h1>
               <div class="row">
-                 <label for="nome" class="col"></label>
-                   <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome" aria-label="Nome">
+                <label for="nome" class="col"></label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  class="form-control"
+                  placeholder="Nome"
+                  aria-label="Nome"
+                />
               </div>
               <div class="row">
-               <label for="cognome" class="col "></label>
-                 <input id="cognome" name="cognome" type="text" class="form-control" placeholder="Cognome" aria-label="Cognome">
-               </div>
-                <div class="row">
-                 <label for="email" class="form-label col">Email</label>
-                 <input type="email" id="email" name="email" class="form-control"  placeholder="nome@esempio.com">
-                  </div>
-            <div class="row">
-            <label for="Servizio" class="col"></label>
-             <select class="form-select" name="Servizio" id="Servizio" aria-label="Servizio richiesto">
-               <option selected>Seleziona Servizio </option>
-               <option value="1">Consulenza </option>
-               <option value="2">Preventivo sito web</option>
-              </select>
+                <label for="cognome" class="col"></label>
+                <input
+                  id="cognome"
+                  name="cognome"
+                  type="text"
+                  class="form-control"
+                  placeholder="Cognome"
+                  aria-label="Cognome"
+                />
+              </div>
+              <div class="row">
+                <label for="email" class="form-label col">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="nome@esempio.com"
+                />
+              </div>
+              <div class="row">
+                <label for="Servizio" class="col"></label>
+                <select
+                  class="form-select"
+                  name="Servizio"
+                  id="Servizio"
+                  aria-label="Servizio richiesto"
+                >
+                  <option selected>Seleziona Servizio</option>
+                  <option value="1">Consulenza</option>
+                  <option value="2">Preventivo sito web</option>
+                </select>
               </div>
 
+              <div class="col btn-posizione">
+                <button class="btn btn-invia">Contattami!</button>
+              </div>
+            </form>
 
-           <div class="col btn-posizione">
-              <button  class="btn btn-invia">Contattami!</button>
+            <!-- fine form -->
           </div>
-             </form>
+          <!-- link contatto email -->
+          <div class="col-12 col-md-6 contatto-email">
+            <h2>Contatti</h2>
+            <address>
+              <p>
+                Per Collaborazioni puoi scrivermi all'indirizzo:
+                <a
+                  style="color: #378dd1"
+                  href="mailto:alessandro.agliano@outlook.com"
+                  >alessandroagliano@outlook.com</a
+                >.<br />
+              </p>
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between py-3 border-top" id="footer">
+        <div class="col-md-4 d-flex">
+          <span class="testo-copyright"> &copy; 2023 Alessandro Aglianò</span>
+        </div>
 
-           <!-- fine form -->
-
-
-        </div> <!-- link contatto email -->
-        <div class=" col-12 col-md-6 contatto-email"  >
-          <h2>Contatti</h2>
-          <address>
-           <p> Per Collaborazioni puoi scrivermi all'indirizzo: <a style="color: #378DD1 ;" href="mailto:alessandro.agliano@outlook.com">alessandroagliano@outlook.com</a>.<br> </p>
-          </address>
-     </div>
-   </div>
-  </div>
-  <div class="d-flex justify-content-between py-3 border-top" id="footer">
-    <div class="col-md-4 d-flex">
-      <span class="testo-copyright">&copy; 2023 Alessandro Aglianò</span>
-    </div>
-
-    <ul class="col-md-4 justify-content-end list-unstyled d-flex"> <!-- icone social -->
-      <li> <a class="bi bi-facebook" href="https://www.facebook.com/alessandro.agliano.1">
-         </a>
-         </li>
-       <li>
-      <a class="bi bi-instagram" href="https://www.instagram.com/alessandroagliano/">
-      </a>
-      </li>
-         <li>
-       <a class="bi bi-github" href="https://github.com/alessandroagliano">
-        </a>
-       </li>
-    </ul>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
- 
+        <ul class="col-md-4 justify-content-end list-unstyled d-flex">
+          <!-- icone social -->
+          <li>
+            <a
+              class="bi bi-facebook"
+              href="https://www.facebook.com/alessandro.agliano.1"
+            >
+            </a>
+          </li>
+          <li>
+            <a
+              class="bi bi-instagram"
+              href="https://www.instagram.com/alessandroagliano/"
+            >
+            </a>
+          </li>
+          <li>
+            <a class="bi bi-github" href="https://github.com/alessandroagliano">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <!--  Javascript Bootstrap -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
